@@ -13,12 +13,19 @@ img {
    max-width: 968px;
    margin: 0 auto;
    .pom-jumbo{
+<<<<<<< HEAD
       background: url('../images/tomato-red-silhouette.svg')center,center;
       background-repeat: no-repeat;
       background-position-y: 105vh;
       background-size: cover;
       height: 50vh;
 
+=======
+      background: url('../images/tomato-red-silhouette.svg')center,center, no-repeat;
+      background-position-y: -30vh;
+      background-size: cover;
+      height: 78vh;
+>>>>>>> master
       .current-task{
          font-size: 30px;
          font-weight: 600;
@@ -26,7 +33,7 @@ img {
          padding: 8px;
       }
       #finished{
-         padding-top: 60px;
+         padding-top: 45px;
          text-shadow: 2px 1px 0px rgba(45, 45, 45, 1);
          color: $seaGreen;
       }
