@@ -46,7 +46,7 @@ document.querySelector('.submit-button').addEventListener('click', function(){
         jumbo.innerHTML = '<h1 id="finished">Pomodoro Complete</h1>'
         window.clearInterval(startClock)
      }
-  }, 100)
+  }, 1000)
 
                })
             })
