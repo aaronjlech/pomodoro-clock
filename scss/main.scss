@@ -1,6 +1,8 @@
 @import "./imports/_normalize.scss";
 $yeller: #F7CA18;
 $seaGreen: #A5D6A7;
+$buttonGrn: #27ae60;
+$buttonRd: #e74c3c;
 *{ box-sizing: border-box }
 img {
    width: 100%;
@@ -16,11 +18,20 @@ img {
       background-size: cover;
       height: 50vh;
       .current-task{
+         font-size: 30px;
+         font-weight: 600;
          background: rgba(255,255,255, .6);
          padding: 8px;
       }
       #finished{
+         padding-top: 60px;
+         text-shadow: 2px 1px 0px rgba(45, 45, 45, 1);
          color: $seaGreen;
+      }
+      #clock{
+         text-shadow: 2px 1px 0px rgba(45, 45, 45, 1);
+         color: $yeller;
+         font-size: 6em;
       }
    }
 
@@ -37,7 +48,7 @@ img {
       button{
          border: none;
          border-bottom: 2px solid #999;
-         background: #27ae60;
+         background: $buttonGrn;
          color: #fff;
          width: 60px;
          i{
@@ -45,5 +56,23 @@ img {
          }
       }
 
+   }
+   .task{
+      border-bottom: 2px solid #999;
+      i{
+         font-size: 30px;
+         float: right;
+         padding: 5px;
+         &:hover{
+            cursor: pointer;
+         }
+
+      }
+      .fa-play:hover{
+         background: $buttonGrn;
+      }
+      .fa-trash:hover{
+         background: $buttonRd;
+      }
    }
 }

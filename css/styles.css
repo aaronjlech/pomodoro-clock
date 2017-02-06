@@ -380,10 +380,18 @@ img {
     background-size: cover;
     height: 50vh; }
     #app-container .pom-jumbo .current-task {
+      font-size: 30px;
+      font-weight: 600;
       background: rgba(255, 255, 255, 0.6);
       padding: 8px; }
     #app-container .pom-jumbo #finished {
+      padding-top: 60px;
+      text-shadow: 2px 1px 0px #2d2d2d;
       color: #A5D6A7; }
+    #app-container .pom-jumbo #clock {
+      text-shadow: 2px 1px 0px #2d2d2d;
+      color: #F7CA18;
+      font-size: 6em; }
   #app-container .pom-input {
     width: 40%;
     margin: 0 auto 2rem; }
@@ -401,5 +409,17 @@ img {
       width: 60px; }
       #app-container .pom-input button i {
         padding: 3px; }
+  #app-container .task {
+    border-bottom: 2px solid #999; }
+    #app-container .task i {
+      font-size: 30px;
+      float: right;
+      padding: 5px; }
+      #app-container .task i:hover {
+        cursor: pointer; }
+    #app-container .task .fa-play:hover {
+      background: #27ae60; }
+    #app-container .task .fa-trash:hover {
+      background: #e74c3c; }
 
 /*# sourceMappingURL=styles.css.map */
