@@ -59,6 +59,6 @@ document.querySelector('.submit-button').addEventListener('click', function(){
          }
 
 
-
+   inputText.value = ""
 
 })

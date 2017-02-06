@@ -13,10 +13,12 @@ img {
    max-width: 968px;
    margin: 0 auto;
    .pom-jumbo{
-      background: url('../images/tomato-red-silhouette.svg')center,center, no-repeat;
+      background: url('../images/tomato-red-silhouette.svg')center,center;
+      background-repeat: no-repeat;
       background-position-y: 105vh;
       background-size: cover;
       height: 50vh;
+
       .current-task{
          font-size: 30px;
          font-weight: 600;
