@@ -14,9 +14,9 @@ img {
    margin: 0 auto;
    .pom-jumbo{
       background: url('../images/tomato-red-silhouette.svg')center,center, no-repeat;
-      background-position-y: 105vh;
+      background-position-y: -30vh;
       background-size: cover;
-      height: 50vh;
+      height: 78vh;
       .current-task{
          font-size: 30px;
          font-weight: 600;
@@ -24,7 +24,7 @@ img {
          padding: 8px;
       }
       #finished{
-         padding-top: 60px;
+         padding-top: 45px;
          text-shadow: 2px 1px 0px rgba(45, 45, 45, 1);
          color: $seaGreen;
       }
