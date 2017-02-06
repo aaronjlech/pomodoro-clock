@@ -1,0 +1,49 @@
+@import "./imports/_normalize.scss";
+$yeller: #F7CA18;
+$seaGreen: #A5D6A7;
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+   max-width: 968px;
+   margin: 0 auto;
+   .pom-jumbo{
+      background: url('../images/tomato-red-silhouette.svg')center,center, no-repeat;
+      background-position-y: 105vh;
+      background-size: cover;
+      height: 50vh;
+      .current-task{
+         background: rgba(255,255,255, .6);
+         padding: 8px;
+      }
+      #finished{
+         color: $seaGreen;
+      }
+   }
+
+   .pom-input{
+      width: 40%;
+      margin: 0 auto 2rem;
+      input{
+         outline: none;
+         border: none;
+         box-shadow: none;
+         border-radius: 0;
+         border-bottom: 2px solid #999;
+      }
+      button{
+         border: none;
+         border-bottom: 2px solid #999;
+         background: #27ae60;
+         color: #fff;
+         width: 60px;
+         i{
+            padding:3px;
+         }
+      }
+
+   }
+}
